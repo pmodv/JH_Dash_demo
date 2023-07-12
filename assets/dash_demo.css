@@ -1,0 +1,69 @@
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1170px;
+  margin:  auto;
+  padding-left: 10px;
+  padding-top: 5px
+  }
+
+.container:after,
+.row:after,
+.column,
+.columns {
+  width: 95%;
+  float: left;
+  box-sizing: border-box; }
+
+
+.slider {
+ padding-left: 20px;
+ padding-top: 5px;
+}
+  
+
+/* set border for the parent div of sliders */
+/* add another 20px for top margin */
+.slider.column {
+  border: dotted;
+  border-width: 2px;
+  border-color: blue;
+  margin-top: 30px;
+  border-radius: 5px;
+
+}
+
+.plot.column {
+  border: dotted;
+  border-width: 1px;
+  border-color: blue;
+  border-radius: 3px;
+  box-sizing: border-box; }
+
+
+
+
+  /* for viewport wider than 550px */
+  @media (min-width: 550px) {
+    .container {
+      width: 95%; }
+    .column,
+    .columns {
+      margin-left: 3%; }
+    .column:first-child,
+    .columns:first-child {
+      margin-left: 4; }
+    
+    /* specify layout for plots vs slider */
+    .slider.column                  {width: 20%;}
+    .plot.column                   {width: 60.0%;}
+  
+    .offset-by-slider.column,
+    .offset-by-slider.columns        {margin-left: 24%;}
+    
+    .offset-by-plot.column,
+    .offset-by-plot.columns          {margin-left: 80.0%;} 
+    
+                         
+  }
