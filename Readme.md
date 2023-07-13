@@ -15,8 +15,7 @@ The demo illustrates how to:
   
 Kindly note that the `JuliaHub` package sits in the following repository: 
   
-    https://github.com/JuliaComputing/JuliaHubClient2.jl
-
+     ](https://github.com/JuliaComputing/JuliaHub.jl)
 
 
 Main Directory Files:
