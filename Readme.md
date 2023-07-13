@@ -1,6 +1,8 @@
 JuliaHub Demo
 
-This repository consists of the two main programs:  a `Pluto` program, the contents of which are included in `plutoFiles`, and the main program, in the parent directory.  
+This repository consists of the two main programs:  
+* a `Pluto` program, the contents of which are included in `plutoFiles`
+* ...and the main program, in the parent directory.  
 
 The demo illustrates how to:
 
