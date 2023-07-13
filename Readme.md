@@ -1,4 +1,4 @@
-JuliaHub API and Dash Demo
+JuliaHub API, Plots.jl, and Dash Demo
 
 This repository consists of the two main programs:  
 * a `Pluto` notebook, the contents of which are included in `plutoFiles`
