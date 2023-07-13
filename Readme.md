@@ -24,5 +24,5 @@ Main Directory Files:
 * csv_data.csv:  the CSV data read into a dataframe by both `dash_demo.jl` and `dash_min.jl`
 
 Sub-Directory Contents:
-* Assets: dash_demo.css for `dash_demo.jl`
+* assets: dash_demo.css for `dash_demo.jl`
 * plutoFiles: contains an `html` showing the notebook from the demonstration and also includes `notebook_file.jl` for reproducing the notebook.  Note:  the markdown in `notebook_file.jl` will not be executed, and so you can safely paste that code into your IDE and execute it.
